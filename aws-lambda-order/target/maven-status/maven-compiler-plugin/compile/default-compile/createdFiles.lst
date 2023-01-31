@@ -1,0 +1,12 @@
+com\lambda\order\clients\CatalogClient$ItemPagedResources.class
+com\lambda\order\LambdaHandler.class
+com\lambda\order\clients\CustomerClient$CustomerPagedResources.class
+com\lambda\order\model\Customer.class
+com\lambda\order\model\Request.class
+com\lambda\order\clients\CatalogClient.class
+com\lambda\order\clients\CustomerClient.class
+com\lambda\order\model\Order.class
+com\lambda\order\AwsLambdaOrderApplication.class
+com\lambda\order\model\OrderLine.class
+com\lambda\order\model\Item.class
+com\lambda\order\util\OrderLineConverter.class
