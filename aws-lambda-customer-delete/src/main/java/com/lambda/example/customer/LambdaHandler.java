@@ -20,8 +20,9 @@ public class LambdaHandler implements RequestHandler<Request, Object> {
         AmazonDynamoDB db = AmazonDynamoDBClientBuilder.defaultClient();
         DynamoDBMapper mapper = new DynamoDBMapper(db);
         Customer c = mapper.load(Customer.class, request.getId());
-        if (c != null)
+        if (c != null){
             mapper.delete(c);
-        return c;
-        
+        }
+        return c; 
+    }      
 }

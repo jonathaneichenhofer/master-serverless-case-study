@@ -25,6 +25,5 @@ public class LambdaHandler implements RequestHandler<Request, Object> {
         if (o != null)
             mapper.delete(o);
         return o;
-
     }
 }
